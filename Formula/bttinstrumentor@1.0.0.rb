@@ -8,7 +8,7 @@ class Bttinstrumentor < Formula
 
   def install
     bin.install "BTTInstrumentor"
-    system "xattr", "-d", "com.apple.quarantine", "#{bin}/BTTInstrumentor"
+    system "xattr", "-d", "com.apple.quarantine", "#{bin}/BTTInstrumentor" rescue nil
   end
 
   test do
