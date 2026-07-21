@@ -1,4 +1,4 @@
-class Bttinstrumentor < Formula
+class BttinstrumentorAT100 < Formula
   desc "BlueTriangle SwiftUI automatic screen tracking instrumentor"
   homepage "https://help.bluetriangle.com/hc/en-us/articles/52918697353875-iOS-SwiftUI-SDK-Instrumentation-Automated-Screen-Tracking"
   version "1.0.0"
