@@ -1,10 +1,10 @@
-class Bttinstrumentor < Formula
+class BttinstrumentorAT101 < Formula
   desc "BlueTriangle SwiftUI automatic screen tracking instrumentor"
   homepage "https://help.bluetriangle.com/hc/en-us/articles/52918697353875-iOS-SwiftUI-SDK-Instrumentation-Automated-Screen-Tracking"
-  version "1.0.2"
+  version "1.0.1"
 
-  url "https://github.com/blue-triangle-tech/BTTInstrumentor/releases/download/1.0.2/BTTInstrumentor"
-  sha256 "dc9aa7c198168a5e413416a9b535d6d080ca8d64db1f62ad6bdd84a627eaf8ac"
+  url "https://github.com/blue-triangle-tech/BTTInstrumentor/releases/download/1.0.1/BTTInstrumentor"
+  sha256 "11f4f14a0c764f7be93705f0c439c2e3e087652fb1e5d38dd7a178fd68f4c69c"
 
   def install
     bin.install "BTTInstrumentor"
